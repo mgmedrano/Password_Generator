@@ -18,8 +18,8 @@
 - Upon users desire for criteria, a random password will generate meeting those selected critera. (Validation of criteria )
 
 # Probable-Happiness (Password Generator Preview)
-> Site Preview 
-![Placeholder](assets/) 
+> Preview ![passwordGen](assets/passwordGen.png) 
+> Outcome ![placeHolderCompleted] 
 
 
 ## Repository & Webpage:
