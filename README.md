@@ -1,4 +1,4 @@
-# Probable-Happiness (Password Generator)
+# Password Generator
 
 
 ## Background
@@ -17,11 +17,11 @@
 ## Password Generated:
 - Upon users desire for criteria, a random password will generate meeting those selected critera. (Validation of criteria )
 
-# Probable-Happiness (Password Generator Preview)
+# Password Generator Preview
 > Preview ![passwordGen](assets/passwordGen.png) 
 > Outcome ![placeHolderCompleted] 
 
 
 ## Repository & Webpage:
-- URL: https://mgmedrano.github.io/Probable-Happiness/
-- GitHub Repository: https://github.com/mgmedrano/Probable-Happiness
+- URL: https://mgmedrano.github.io/Password_Generator/
+- GitHub Repository: https://github.com/mgmedrano/Password_Generator
