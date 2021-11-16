@@ -1,18 +1,34 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var lower = "abcdefghijklmnopqrstuvwxy";
-var nums = "1234567890";
-var symbols = "!@#$%^&*()_+<>?/";
-var passwordLength = " ";
-var password = " ";
+
+//Store choices for password type selected
+var upperCharacter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerCharacter = "abcdefghijklmnopqrstuvwxy";
+var numberCharacter = "1234567890";
+var specialCharacter = ".,!@#$%^&*()_+<>?/";
+var password = [];
 
 function generatePassword () {
-  var range = prompt ("Please enter a value for your password length (Minimum: 8; Maximum: 128).");
-  var upper = confirm ("Do you want uppercase in your password?");
-  var lower = confirm ("Do you want lowercase in your password?");
-  var nums = confirm ("Do you want numerics?");
-  var symbols = confirm ("Do you want symbols/special characters?");
+  var passwordLength = prompt("How long would you like your password to be? (MUST be between 8 - 128)")
+  var lengthConfirm = parseInt(passwordLength);
+  console.log(lengthConfirm);
+
+  if(passwordLength < 8 || passwordLength > 128) {
+    alert ("Length MUST be between 8 - 128");
+    return
+  }
+
+  var confirmLower = confirm ("Would you like lowercase letters in your password?")
+  console.log(confirmLower);
+  if(confirmLower === true) {
+    for(var i = 0; i < lowerCharacter.length; i++) {
+      password.push(lowerCharacter [i]);
+    }
+  }
+
+  
+
+  
   }
 
 // Write password to the #password input
